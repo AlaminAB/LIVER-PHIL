@@ -95,13 +95,13 @@ p {
 }
 
 a {
-  color: #0000ff;
+  color: #208de5;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   text-decoration: underline;
 }
 a:hover{
-  color: #0000ff;
+  color: #208de5;
 }
 b, strong {
     font-weight: bold;
@@ -151,11 +151,11 @@ header {
     text-transform: uppercase;
 }
 
-.section-1 h2 {
+
+.title{
     text-align: center;
     font-size: 38px;
     text-transform: uppercase;
-    margin-bottom: 40px;
 }
 
 .section-1 img {
@@ -242,6 +242,17 @@ p.copy-right {
 ul.footer-ul li a:hover {
     text-decoration: underline;
     color: #fff;
+}
+ul.custom-ul {
+    padding-left: 35px;
+    list-style-image: url(../img/icon.svg);
+    margin-bottom: 25px;
+}
+.section-8 a {
+    color: #0000ff;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
 }
 /************** Template CSS **************/
 
